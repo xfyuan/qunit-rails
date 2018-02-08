@@ -1,6 +1,6 @@
 QUnit::Rails::Engine.routes.draw do
   root to: "test#index"
-  get ":action", controller: "test"
+  get "index", controller: "test"
 end
 
 Rails.application.routes.draw do
